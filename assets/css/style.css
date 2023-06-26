@@ -496,7 +496,8 @@ body.nav-active {
 
 .hero-title {
   text-transform: uppercase;
-  word-break: break-all;
+  word-break: break-word;
+  /* background-color: red; */
 }
 
 .hero-subtitle {
@@ -867,7 +868,6 @@ body.nav-active {
   .hero-subtitle {
     text-shadow: 2px 2px 0 var(--eerie-black);
   }
-
   /**
    * SKILL
    */
@@ -940,6 +940,9 @@ body.nav-active {
     --fs-8: 1.4rem;
   }
 
+  /* .h1 {
+    font-size: 3.5rem;
+  } */
   /**
    * SKILL
    */
